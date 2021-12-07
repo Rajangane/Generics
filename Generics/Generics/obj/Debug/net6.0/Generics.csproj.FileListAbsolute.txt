@@ -1,0 +1,15 @@
+D:\bridzlabz\generics\Generics\Generics\bin\Debug\net6.0\Generics.exe
+D:\bridzlabz\generics\Generics\Generics\bin\Debug\net6.0\Generics.deps.json
+D:\bridzlabz\generics\Generics\Generics\bin\Debug\net6.0\Generics.runtimeconfig.json
+D:\bridzlabz\generics\Generics\Generics\bin\Debug\net6.0\Generics.dll
+D:\bridzlabz\generics\Generics\Generics\bin\Debug\net6.0\ref\Generics.dll
+D:\bridzlabz\generics\Generics\Generics\bin\Debug\net6.0\Generics.pdb
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.csproj.AssemblyReference.cache
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.GeneratedMSBuildEditorConfig.editorconfig
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.AssemblyInfoInputs.cache
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.AssemblyInfo.cs
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.csproj.CoreCompileInputs.cache
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.dll
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\ref\Generics.dll
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.pdb
+D:\bridzlabz\generics\Generics\Generics\obj\Debug\net6.0\Generics.genruntimeconfig.cache
