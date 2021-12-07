@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("**************** Welcome To Generics *********************");
 using Generics;
-Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax\n4)SortMaxNum\n5)GenericMaxNum");
+Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax\n4)SortMaxNum\n5)GenericMaxNum\n6)Refactor1");
 int option = Convert.ToInt32(Console.ReadLine());
 switch (option)
 {
@@ -36,6 +36,13 @@ switch (option)
         GenericMaxNum<string> checkString2 = new GenericMaxNum<string>(stringArray);
         checkString2.PrintMaxValue();
         break;
+    case 6:
+        Refactor1Generic findMax = new Refactor1Generic();
+        findMax.findMaximum<int>(12, 13, 14);
+        findMax.findMaximum<float>(2.2f, 6.6f, 7.4f);
+        findMax.findMaximum<char>('M', 'S', 'D');
+        break;
+
     default:
         Console.WriteLine("Invalid Choice");
         break;
