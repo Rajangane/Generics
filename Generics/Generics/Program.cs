@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("**************** Welcome To Generics *********************");
 using Generics;
-Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax");
+Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax");
 int option = Convert.ToInt32(Console.ReadLine());
 switch (option)
 {
@@ -12,6 +12,10 @@ switch (option)
     case 2:
         float output1 = MaximumNum.MaxFloatNumber(1.1f, 2.2f, 3.3f);
         Console.WriteLine("Maximum Number:" + output1);
+        break;
+    case 3:
+        String output2 = MaximumNum.MaximumStringNumber("111", "222", "333");
+        Console.WriteLine("Maximum Number:" + output2);
         break;
 
 }
