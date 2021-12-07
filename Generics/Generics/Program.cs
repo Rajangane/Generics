@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("**************** Welcome To Generics *********************");
 using Generics;
-Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax\n4)SortMaxNum\n5)GenericMaxNum\n6)Refactor1");
+Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax\n4)SortMaxNum\n5)GenericMaxNum\n6)Refactor1\n7)Refactor2");
 int option = Convert.ToInt32(Console.ReadLine());
 switch (option)
 {
@@ -41,6 +41,14 @@ switch (option)
         findMax.findMaximum<int>(12, 13, 14);
         findMax.findMaximum<float>(2.2f, 6.6f, 7.4f);
         findMax.findMaximum<char>('M', 'S', 'D');
+        break;
+    case 7:
+        Refactor2Generic<int> maxInt = new Generics.Refactor2Generic<int>(22, 33, 44);
+        maxInt.findMaximum();
+        Refactor2Generic<float> maxFloat = new Refactor2Generic<float>(8.8f, 7.0f, 9.96f);
+        maxFloat.findMaximum();
+        Refactor2Generic<string> maxStr = new Refactor2Generic<string>("i", "can", "do");
+        maxStr.findMaximum();
         break;
 
     default:
