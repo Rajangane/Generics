@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 //Console.WriteLine("**************** Welcome To Generics *********************");
 using Generics;
-Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax");
+Console.Write("Select Number:\n1)IntegerMax\n2)FloatMax\n3)StringMax\n4)SortMaxNum");
 int option = Convert.ToInt32(Console.ReadLine());
 switch (option)
 {
@@ -17,5 +17,15 @@ switch (option)
         String output2 = MaximumNum.MaximumStringNumber("111", "222", "333");
         Console.WriteLine("Maximum Number:" + output2);
         break;
+    case 4:
+        int[] output3 = { 111, 222, 333, 444, 555 };
+        SortMaxNum<int> checkInt1 = new SortMaxNum<int>(output3);
+        int i = checkInt1.MaxValue(output3);
+        Console.WriteLine(i);
+        break;
+    default:
+        Console.WriteLine("Invalid Choice");
+        break;
+
 
 }
